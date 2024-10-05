@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Schedule</title>
+    <link rel="stylesheet" href="train.css">
+</head>
+<body>
+    <div class="schedule">
+        <label for="trainname">Train Name:</label>
+        <input type="text" id="trainname" placeholder="Enter the train name:">
+        
+        <label for="arrivaltime">Arrival Time:</label>
+        <input type="time" id="arrivaltime" placeholder="Enter the arrival time of the train:">
+        
+        <label for="departuretime">Departure Time:</label>      
+        <input type="time" id="departuretime" placeholder="Enter the departure time of the train:">
+        
+        <button id="addtrain" onclick="addTrain()">Add New Train</button>
+        
+       
+        <ul id="trainList"></ul>
+
+        <script src="train.js"></script>
+    </div>
+    
+</body>
+</html>

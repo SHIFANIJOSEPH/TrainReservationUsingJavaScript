@@ -1,0 +1,79 @@
+/* Style for the overall body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container for the train schedule form */
+.schedule {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for labels */
+.schedule label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Style for input fields */
+.schedule input[type="text"],
+.schedule input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Style for the add train button */
+.schedule button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.schedule button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the train list */
+#trainList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+/* Style for each train item */
+#trainList li {
+    background-color: #f0f0f5;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    .schedule {
+        width: 90%;
+    }
+}
